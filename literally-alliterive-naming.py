@@ -108,6 +108,6 @@ def generate_release_names(num_names=5):
 # Generate and print 10 unique, alliterative release names
 if __name__ == "__main__":
     codenames = generate_release_names(10)
-    print("🚀 Your Alliterative Software Release Names:")
+    print("📃 Here are 10 alliterative names:")
     for idx, name in enumerate(codenames, 1):
-        print(f"Version {idx}.0: {name}")
+        print(f"{idx}) {name}")
